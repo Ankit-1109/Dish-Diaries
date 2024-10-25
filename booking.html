@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Booking</title>
+    <link rel="stylesheet" href="booking.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1><a href="Home.html" style="text-decoration: none;color: white;">Dish Diaries</a></h1>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="cuisines.html">Cuisines</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login or Sign up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero small-hero">
+        <h2>Restaurant Booking</h2>
+    </section>
+
+    <section class="booking-form">
+        <h2>Reserve a Table</h2>
+        <form action="submit_booking.php" method="POST">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="guests">Number of Guests:</label>
+            <select id="guests" name="guests">
+                <option value="1">1 Guest</option>
+                <option value="2">2 Guests</option>
+                <option value="3">3 Guests</option>
+                <option value="4">4 Guests</option>
+                <option value="5">5 Guests</option>
+                <option value="6">6 Guests</option>
+            </select>
+
+            <label for="date">Booking Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Booking Time:</label>
+            <input type="time" id="time" name="time" required>
+
+            <label for="requests">Special Requests:</label>
+            <textarea id="requests" name="requests" placeholder="Any special requests?"></textarea>
+
+            <button type="submit"><a href="payment.html" style="text-decoration: none;color: white;">Book Now</a></button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Cuisine Booking. All rights reserved.</p>
+    </footer>
+</body>
+</html>

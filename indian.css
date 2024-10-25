@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #ff6347;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.small-hero {
+    padding: 50px 20px;
+    background-color: #ff6347;
+    color: #fff;
+    text-align: center;
+}
+
+.cuisine-info {
+    padding: 50px 20px;
+    background-color: #fafafa;
+    text-align: center;
+}
+
+.cuisine-info img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.cuisine-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cuisine-info ul li {
+    margin: 10px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
